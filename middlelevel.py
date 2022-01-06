@@ -15,22 +15,22 @@ class MiddleLvl:
         phoneNumber = input("Phone Number: ")
         email = input("Email: ")
 
-        middleLevel = f"Dear {hiringManagerName} \
-        When I came across your advertisement looking to fill the {jobTitle} position at {companyName}, \
-        I was immediately excited. As a {pcJobTitle} having {Number} years of expertise, \
-        I've developed and become highly skilled in {keySkills}. As such, I believe \
-        I would make a perfect choice for the position and your company's upcoming goals \
-        According to the job ad, you are trying to find a {jobTitle} with experience in {jobRequirementsFromdAdvert}.\
-        During my time at {mrcCompany} as a {jobTitle}, \
-        I succeeded in {Accomplishments}. I am sure that my experience would allow \
-        me to effectively replicate such results at {companyName}. \
-        Could we have a talk about how my skills and professional background can help {companyName} \
-        complete its upcoming targets and deliverables? \
-        Sincerely, \
-        {fullName} \
-        {phoneNumber} \
-        {email}"
+        middleLevel = f"\nDear {hiringManagerName} \
+        \nWhen I came across your advertisement looking to fill the {jobTitle} position at {companyName}, \
+        \nI was immediately excited. As a {pcJobTitle} having {Number} years of expertise, \
+        \nI've developed and become highly skilled in {keySkills}. As such, I believe \
+        \nI would make a perfect choice for the position and your company's upcoming goals \
+        \nAccording to the job ad, you are trying to find a {jobTitle} with experience in {jobRequirementsFromdAdvert}.\
+        \nDuring my time at {mrcCompany} as a {jobTitle}, \
+        \nI succeeded in {Accomplishments}. I am sure that my experience would allow \
+        \nme to effectively replicate such results at {companyName}. \
+        \nCould we have a talk about how my skills and professional background can help {companyName} \
+        \ncomplete its upcoming targets and deliverables? \
+        \nSincerely, \
+        \n{fullName} \
+        \n{phoneNumber} \
+        \n{email}"
 
         print(middleLevel)
 
-    MiddleLevel()
+    #MiddleLevel()

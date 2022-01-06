@@ -1,6 +1,7 @@
 # This is the Class for entry level of the cover-letter builder
 class EntryLvl:
     def EntryLevel():
+        hiringManagerName = input("Hiring Manager's Name: ")
         jobTitle = input("Job Title: ")
         organizationName = input("Organization Name: ")
         skill1 = input("Skill  No. 1: ")
@@ -19,20 +20,21 @@ class EntryLvl:
         phoneNumber = input("Phone Number: ")
         email = input("Email: ")
 
-        coverLetter = f"I'm excited to apply for the {jobTitle} position at{organizationName}. Although\
-    I'm an entry-level applicant, I am passionate about doing a great job and out of the skills you're looking for \
-    I have already developed {skill1}, {skill2}, {skill3}.\
-    I'm very interested in beginning a career in the {careerField} field, as I {motivation}.\
-    believe I'll make an excellent {jobTitle} thanks to my skills, plus the following accomplishments: \
-    {achievement1} \
-    {achievement2} \
-    {achievement3} \
-    I'm excited to show you how my {skillsTheyNeed} can help you achieve your \
-    upcoming goals. Could we set up a time to discuss your needs? \
-    Best Regards, \
-    {fullName}  \
-    {phoneNumber}  \
-    {email} \"                                                                                                                                                                                                                                                "
+        coverLetter = f"\nDear {hiringManagerName} \
+    \nI'm excited to apply for the {jobTitle} position at{organizationName}. Although\
+    \nI'm an entry-level applicant, I am passionate about doing a great job and out of the skills you're looking for \
+    \nI have already developed {skill1}, {skill2}, {skill3}.\
+    \nI'm very interested in beginning a career in the {careerField} field, as I {motivation}.\
+    \nbelieve I'll make an excellent {jobTitle} thanks to my skills, plus the following accomplishments: \
+    \n{achievement1} \
+    \n{achievement2} \
+    \n{achievement3} \
+    \nI'm excited to show you how my {skillsTheyNeed} can help you achieve your \
+    \nupcoming goals. Could we set up a time to discuss your needs? \
+    \nBest Regards, \
+    \n{fullName}  \
+    \n{phoneNumber}  \
+    \n{email} \"                                                                                                                                                                                                                                                "
         print(coverLetter)
 
-    EntryLevel()
+    #EntryLevel()
